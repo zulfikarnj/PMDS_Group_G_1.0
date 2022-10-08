@@ -11,6 +11,10 @@ X_PATH_VALID: output/split_data/X_valid.pkl
 Y_PATH_VALID: output/split_data/y_valid.pkl
 DUMP_TRAIN: output/preprocess_data/data/preprocessed_x_train.pkl
 DUMP_VALID: output/preprocess_data/data/preprocessed_x_valid.pkl
+DUMP_PREDICT: output/predict/data/preprocessed_x_predict_v1.1.pkl
+MODEL_NAME: output/model/train/model_name_v1.1.pkl
+BEST_MODEL: output/model/train/best_estimator_v1.1.pkl
+TRAIN_LOG: output/model/train/train_log_v1.1.pkl
 
 TRAIN_COLUMN:
 - Location
@@ -49,3 +53,9 @@ NUM_COLUMN:
 - DailyVacPerHun
 - DailyPeopleVac
 - DailyPeopleVacPerHun
+
+PREDICT_COLUMN: NWD
+
+PREDICT_COLUMN_TYPE:
+  NWD: int
+
