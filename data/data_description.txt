@@ -1,0 +1,29 @@
+Id: Unique id for each row
+Location: Name of the country/region/group of people
+Year: Year of the start of the week is in
+    2020
+    2021
+    2022
+
+CASES
+    Weekly Cases : Weekly new confirmed cases of COVID-19. Counts can include probable cases, where reported. In rare cases where the source reports a negative daily change due to a data correction, the metric is set to n/a.
+    Weekly Cases per Million: "Weekly Cases" per 1,000,000 people in the total population of the location
+
+DEATHS
+    Weekly Deaths: Weekly new deaths attributed to COVID-19. Counts can include probable deaths, where reported. In rare cases where our source reports a negative daily change due to a data correction, the metric is set to n/a.
+    Weekly Deaths per Million: "Weekly Deaths" per 1,000,000 people in the total population of the location
+    Next Week's Death: Weekly Deaths for the next week. Counts can include probable deaths, where reported
+
+VACCINATIONS
+    Total Vaccinations: Total number of doses administered. For vaccines that require multiple doses, each individual dose is counted. If a person receives one dose of the vaccine, this metric goes up by 1. If they receive a second dose, it goes up by 1 again. If they receive a third/booster dose, it goes up by 1 again
+    People Vaccinated: Total number of people who received at least one vaccine dose. If a person receives the first dose of a 2-dose vaccine, this metric goes up by 1. If they receive the second dose, the metric stays the same
+    People Fully Vaccinated: Total number of people who received all doses prescribed by the initial vaccination protocol. If a person receives the first dose of a 2-dose vaccine, this metric stays the same. If they receive the second dose, the metric goes up by 1
+    Total Boosters: Total number of COVID-19 vaccination booster doses administered (doses administered beyond the number prescribed by the initial vaccination protocol)
+    Daily Vaccinations: New doses administered per day (7-day smoothed). For countries that don't report data on a daily basis, we assume that doses changed equally on a daily basis over any periods in which no data was reported. This produces a complete series of daily figures, which are then averaged over a rolling 7-day window
+    Total Vaccinations per Hundred: "Total Vaccinations" per 100 people in the total population of the location
+    People Vaccinated per Hundred: "People Vaccinated" per 100 people in the total population of the location
+    People Fully Vaccinated per Hundred: "People Fully Vaccinated" per 100 people in the total population of the location
+    Total boosters per Hundred: "Total Boosters" per 100 people in the total population of the location
+    Daily Vaccinations per Hundred: "Daily Vaccinations" per 100 people in the total population of the location
+    Daily People Vaccinated: Daily number of people receiving a first COVID-19 vaccine dose (7-day smoothed)
+    Daily People Vaccinated per Hundred: "Daily People Vaccinated" per 100 people in the total population of the location

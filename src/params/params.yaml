@@ -1,0 +1,51 @@
+DATA_PATH: data/train.csv
+TARGET_COLUMN: NWD
+TEST_SIZE: 0.2
+n_iter_search: 3
+verbosity: 2
+scoring: neg_mean_squared_error
+
+X_PATH_TRAIN: output/split_data/X_train.pkl
+Y_PATH_TRAIN: output/split_data/y_train.pkl
+X_PATH_VALID: output/split_data/X_valid.pkl
+Y_PATH_VALID: output/split_data/y_valid.pkl
+DUMP_TRAIN: output/preprocess_data/data/preprocessed_x_train.pkl
+DUMP_VALID: output/preprocess_data/data/preprocessed_x_valid.pkl
+
+TRAIN_COLUMN:
+- Location
+- Year
+- WeekCase
+- WeekCasePerMil
+- WeekDeath
+- WeekDeathPerMil
+- TotalVac
+- PeopleVac
+- PeopleFullVac
+- TotalBoost
+- DailyVac
+- TotalVacPerHun
+- PeopleVacPerHun
+- PeopleFullVacPerHun
+- TotalBoostPerHun
+- DailyVacPerHun
+- DailyPeopleVac
+- DailyPeopleVacPerHun
+
+NUM_COLUMN:
+- WeekCase
+- WeekCasePerMil
+- WeekDeath
+- WeekDeathPerMil
+- TotalVac
+- PeopleVac
+- PeopleFullVac
+- TotalBoost
+- DailyVac
+- TotalVacPerHun
+- PeopleVacPerHun
+- PeopleFullVacPerHun
+- TotalBoostPerHun
+- DailyVacPerHun
+- DailyPeopleVac
+- DailyPeopleVacPerHun

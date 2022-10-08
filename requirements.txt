@@ -1,0 +1,6 @@
+numpy
+pandas
+joblib
+pyyaml
+pycountry_convert
+sklearn
